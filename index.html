@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skull's Website Making - Reviews</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      background: #0f0f0f;
+      color: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #00ffcc;
+    }
+    .reviews {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .review {
+      background: #1c1c1c;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #00ffcc33;
+      transition: transform 0.2s;
+    }
+    .review:hover {
+      transform: translateY(-5px);
+    }
+    .review img {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+    }
+    .review .name {
+      font-weight: 700;
+      margin-top: 0.5rem;
+    }
+    .stars {
+      color: gold;
+      margin: 0.5rem 0;
+    }
+    .text {
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>⭐ Skull's Website Making ⭐</h1>
+    <p>See what totally real customers are saying!</p>
+  </header>
+
+  <section class="reviews">
+    <div class="review">
+      <img src="https://i.pravatar.cc/48?img=1" alt="User">
+      <div class="name">Alex R.</div>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <div class="text">Absolutely amazing! Skull made my site look like a million bucks. 10/10!</div>
+    </div>
+    <div class="review">
+      <img src="https://i.pravatar.cc/48?img=2" alt="User">
+      <div class="name">Jamie L.</div>
+      <div class="stars">⭐⭐⭐⭐</div>
+      <div class="text">Pretty good. Some delays, but the quality made up for it!</div>
+    </div>
+    <div class="review">
+      <img src="https://i.pravatar.cc/48?img=3" alt="User">
+      <div class="name">Chris B.</div>
+      <div class="stars">⭐⭐⭐</div>
+      <div class="text">It was decent. Not amazing, but definitely not bad either.</div>
+    </div>
+    <div class="review">
+      <img src="https://i.pravatar.cc/48?img=4" alt="User">
+      <div class="name">Samira K.</div>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <div class="text">Skull turned my idea into a full-on brand. Insanely good work.</div>
+    </div>
+    <div class="review">
+      <img src="https://i.pravatar.cc/48?img=5" alt="User">
+      <div class="name">Ty D.</div>
+      <div class="stars">⭐</div>
+      <div class="text">Terrible experience. Skull made it *too* good, now my friends are jealous.</div>
+    </div>
+    <div class="review">
+      <img src="https://i.pravatar.cc/48?img=6" alt="User">
+      <div class="name">Lena V.</div>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <div class="text">Best website ever. Skull is a legend. Highly recommend!</div>
+    </div>
+  </section>
+</body>
+</html>
 
